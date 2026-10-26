@@ -10,7 +10,6 @@ require_nonempty() {
     fi
 }
 require_nonempty CPA_MANAGEMENT_KEY
-require_nonempty CPA_API_KEY
 require_nonempty OMCPA_MASTER_KEY
 require_nonempty GITSTORE_GIT_URL
 require_nonempty GITSTORE_GIT_TOKEN
